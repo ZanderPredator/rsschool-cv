@@ -40,6 +40,10 @@
         max-width: 1440px;
         margin: 0 auto;
     }
+
+    .nav{
+        background-color: #98e664;
+    }
     .nav-list{
         padding: 0;
         display: flex;
@@ -77,6 +81,40 @@
         text-transform: uppercase;
         letter-spacing: 5px;
         color: #829985;
+    }
+
+    /* heroPhoto */
+
+    .heroPhoto{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .photoAuthor{
+       width: 200px;
+       border-radius: 50%
+
+    }
+     h1{
+        font-size: 40px;
+    }
+    .informAuthor{
+        margin-left: 60px;
+    }
+
+    .codeColor{
+        color: rgb(216, 81, 243);
+    }
+
+    .linkFollow{
+        width: 50px;
+    }
+
+    
+    .fullLine{
+        height: 5px;
+        background-color: #98e664;
+        border: none;
     }
 
 
