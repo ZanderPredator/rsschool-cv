@@ -40,6 +40,10 @@
         max-width: 1440px;
         margin: 0 auto;
     }
+
+    .nav{
+        background-color: #98e664;
+    }
     .nav-list{
         padding: 0;
         display: flex;
@@ -79,8 +83,71 @@
         color: #829985;
     }
 
+    /* heroPhoto */
+
+    .heroPhoto{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .photoAuthor{
+       width: 200px;
+       border-radius: 50%
+
+    }
+     h1{
+        font-size: 40px;
+    }
+    .informAuthor{
+        margin-left: 60px;
+    }
+
+    .codeColor{
+        color: rgb(216, 81, 243);
+    }
+
+    .linkFollow{
+        width: 50px;
+    }
+
+    
+    .fullLine{
+        height: 5px;
+        background-color: #98e664;
+        border: none;
+    }
+
+    /* footer */
+    .inform_footer{
+        display: flex;
+        justify-content: space-between;
+        
+        background-color: #98e664;
+        
+        height: 55px;
+    
+    }
+    .rs img{
+        width: 150px;
+    }
+
+    .footer_years, .gitHub{
+        font-size: 24px;
+        padding-left: 40px;
+        line-height: 55px;
+    }
+
+    .gitHub a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .gitHub a:hover{
+        color: rgb(32, 216, 102);
+        transition: .4s;
+    }
 
 
+    
   @media (max-width: 768px) {
     .section {
       width: 100%;
