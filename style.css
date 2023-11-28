@@ -3,13 +3,12 @@
     }
 
     body{
+        width: 100vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         font-family: 'Kalam', sans-serif;  
-        font-size: 18px;  
-        line-height: 1.5;
-        min-height: 100vh;
+        font-size: 18px; 
         color: #4d2323;
         margin: 0;
         padding: 0;
@@ -23,16 +22,18 @@
 
     * {
         box-sizing: border-box;
+        padding: 0;
+        margin: 0;
     }
 
     @font-face {
         font-family: 'Kalam';
-        src: url(/assets/Kalam-Regular.ttf);
+        src: url(./assets/Kalam-Regular.ttf);
         font-weight: 400;
     }
     @font-face {
         font-family: 'Kalam';
-        src: url(/assets/Kalam-Bold.ttf);
+        src: url(./assets/Kalam-Bold.ttf);
         font-weight: bold;
     }
 
@@ -42,8 +43,15 @@
     }
 
     .nav{
+        height: 70px;
         background-color: #98e664;
+        margin-bottom: 2rem;
+        font-family:'Kalam', sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        font-weight: 400;
     }
+
     .nav-list{
         padding: 0;
         display: flex;
@@ -53,7 +61,7 @@
     }
     .nav-item{
         padding: 0 20px;
-        line-height: 50px;
+        line-height: 70px;
     }
     .nav-link{
         text-decoration: none;
@@ -69,6 +77,8 @@
     }
 
     .section {
+        padding-top: 5px;
+        padding-left: 20px;
         width: 50%;
     }
     #Profile{
@@ -76,32 +86,41 @@
     }
 
     .section-title {
+        text-align: center;
         font-size: 20px;
         font-weight: 400;
         text-transform: uppercase;
         letter-spacing: 5px;
-        color: #829985;
+        color: #0af729;
     }
 
     /* heroPhoto */
 
     .heroPhoto{
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
     
     .photoAuthor{
-       width: 200px;
-       border-radius: 50%
+       display: block;
+       width: 300px;
+       border-radius: 50%;
 
     }
-     h1{
-        font-size: 40px;
-    }
+     
     .informAuthor{
-        margin-left: 60px;
+        display: block;
+        font-size: 30px;
+        height: 50px;
+        transform: rotate(-14deg);
+        color: yellowgreen;
+        text-shadow: 0 10px 10px;
     }
 
+    h1{
+            display: block;
+            font-size: 30px;
+        }
     .codeColor{
         color: rgb(216, 81, 243);
     }
@@ -110,12 +129,7 @@
         width: 50px;
     }
 
-    
-    .fullLine{
-        height: 5px;
-        background-color: #98e664;
-        border: none;
-    }
+
 
     /* footer */
     .inform_footer{
